@@ -1,0 +1,83 @@
+name: Theme report
+description: Report a visual, scope, contrast, or language-highlighting issue.
+title: "[Theme]: "
+labels:
+  - theme-report
+body:
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Avenor theme
+      options:
+        - Avenor Cobalt
+        - Avenor Charcoal
+        - Avenor Gunmetal
+        - Avenor Indigo
+        - Avenor Ivory
+        - Avenor Jade
+        - Avenor Navy
+        - Avenor Obsidian
+        - Avenor Signature
+        - Avenor Twilight
+    validations:
+      required: true
+  - type: input
+    id: vscode-version
+    attributes:
+      label: VS Code version
+      placeholder: "For example: 1.105.0"
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language and extension
+      description: Include the language extension name and version when relevant.
+      placeholder: "TypeScript (built in), Python 2026.x, SQL extension name, …"
+    validations:
+      required: true
+  - type: dropdown
+    id: semantic-highlighting
+    attributes:
+      label: Semantic highlighting
+      options:
+        - Enabled
+        - Disabled
+        - Unsure
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the current appearance and the result you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Paste the smallest code sample that demonstrates the issue.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Token scope
+      description: "Include output from Developer: Inspect Editor Tokens and Scopes when possible."
+      render: text
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Attach a real VS Code screenshot after removing private or identifying information.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I reproduced this with the selected Avenor theme active.
+          required: true
+        - label: I removed secrets, personal data, and private project information.
+          required: true
