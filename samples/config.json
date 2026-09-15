@@ -1,0 +1,17 @@
+{
+  "name": "avenor-preview",
+  "enabled": true,
+  "release": null,
+  "version": 0.5,
+  "variants": ["classic", "bright", "deep"],
+  "editor": {
+    "background": "#0F1323",
+    "semanticHighlighting": true,
+    "fontLigatures": false
+  },
+  "metrics": {
+    "workbenchColors": 707,
+    "textMateRules": 95,
+    "semanticSelectors": 59
+  }
+}
