@@ -103,7 +103,7 @@
   "scripts": {
     "validate": "node scripts/validate-family.mjs",
     "test": "npm run validate",
-    "package": "npm run validate && vsce package --out dist/avenor-1.0.0.vsix",
+    "package": "npm run validate && node -e \"require('node:fs').mkdirSync('dist', { recursive: true })\" && vsce package --out dist/avenor-1.0.0.vsix",
     "vscode:prepublish": "npm run validate"
   },
   "devDependencies": {
