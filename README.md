@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/avenor.png" alt="Avenor logo" width="140" />
+  <img src="assets/avenor.png" alt="Avenor logo" width="120" />
 </p>
 
 # Avenor Theme
