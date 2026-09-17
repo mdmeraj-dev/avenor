@@ -1,10 +1,6 @@
 # Changelog
 
-All notable changes to Avenor will be documented here.
-
-## [1.0.0] - 2026-09-15
-
-### Added
+## Version 1.0.0
 
 - Released the complete ten-theme collection: **Avenor Cobalt**, **Avenor Charcoal**, **Avenor Gunmetal**, **Avenor Indigo**, **Avenor Ivory**, **Avenor Jade**, **Avenor Navy**, **Avenor Obsidian**, **Avenor Signature**, and **Avenor Twilight**.
 - Added nine dark workbench systems and the light **Avenor Ivory** variant, each with its own coordinated editor, sidebar, activity bar, title bar, tabs, panels, inputs, widgets, selections, borders, and status surfaces.
