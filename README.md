@@ -12,13 +12,11 @@ Premium VS Code themes crafted for clarity, character, and comfortable long codi
 [![VS Code 1.90+](https://img.shields.io/badge/VS%20Code-1.90%2B-5D91E8.svg)](https://code.visualstudio.com/)
 [![GitHub stars](https://img.shields.io/github/stars/mdmeraj-dev/avenor?style=flat&logo=github)](https://github.com/mdmeraj-dev/avenor)
 
-<!-- Real flagship screenshot slot: assets/screenshots/avenor-signature.png -->
-
 ## Avenor Signature
 
 The flagship Avenor experience uses a balanced neutral-cool foundation, disciplined contrast, and subtle blue-gray depth. It is the recommended starting point for the collection.
 
-<!-- Screenshot slot: assets/screenshots/avenor-signature.png -->
+![Avenor Signature in Visual Studio Code](assets/screenshots/avenor-signature.png)
 
 ## Theme Collection
 
@@ -31,71 +29,69 @@ Every variant preserves Avenor's semantic intent while giving the workbench its 
 | **Avenor Charcoal** | Neutral charcoal | Understated, focused, and clean |
 | **Avenor Gunmetal** | Cool metallic gray | Structured, modern, and substantial |
 | **Avenor Indigo** | Blue-violet slate | Refined, atmospheric, and softly chromatic |
-| **Avenor Ivory** | Cool white | Bright, precise, and restrained |
 | **Avenor Jade** | Green charcoal | Mineral, calm, and subtly distinctive |
 | **Avenor Navy** | Blue-black navy | Deep, composed, and low-glare |
 | **Avenor Obsidian** | Near-black graphite | Minimal, concentrated, and finely layered |
 | **Avenor Twilight** | Muted violet night | Soft, immersive, and atmospheric |
+| **Avenor Ivory** | Cool white | Bright, precise, and restrained |
 
-### Avenor Signature
+## Theme Gallery
 
-A balanced graphite-blue workspace with refined contrast and measured visual depth.
-
-<!-- Screenshot slot: assets/screenshots/avenor-signature.png -->
+The gallery uses the same VS Code workspace and code sample for every capture, so the palette is the only meaningful visual change.
 
 ### Avenor Cobalt
 
 A deep cobalt workspace with rich blue atmosphere and crisp surface separation.
 
-<!-- Screenshot slot: assets/screenshots/avenor-cobalt.png -->
+![Avenor Cobalt in Visual Studio Code](assets/screenshots/avenor-cobalt.png)
 
 ### Avenor Charcoal
 
 A neutral charcoal environment built around understated depth and clean contrast.
 
-<!-- Screenshot slot: assets/screenshots/avenor-charcoal.png -->
+![Avenor Charcoal in Visual Studio Code](assets/screenshots/avenor-charcoal.png)
 
 ### Avenor Gunmetal
 
 A cool metallic-gray workspace with clear structure and substantial mid-dark surfaces.
 
-<!-- Screenshot slot: assets/screenshots/avenor-gunmetal.png -->
+![Avenor Gunmetal in Visual Studio Code](assets/screenshots/avenor-gunmetal.png)
 
 ### Avenor Indigo
 
 A refined blue-violet workspace with softened atmosphere and balanced separation.
 
-<!-- Screenshot slot: assets/screenshots/avenor-indigo.png -->
-
-### Avenor Ivory
-
-A cool-white light theme with calm chrome, dark text, and precise visual hierarchy.
-
-<!-- Screenshot slot: assets/screenshots/avenor-ivory.png -->
+![Avenor Indigo in Visual Studio Code](assets/screenshots/avenor-indigo.png)
 
 ### Avenor Jade
 
 A green-charcoal workspace with subtle mineral character and restrained depth.
 
-<!-- Screenshot slot: assets/screenshots/avenor-jade.png -->
+![Avenor Jade in Visual Studio Code](assets/screenshots/avenor-jade.png)
 
 ### Avenor Navy
 
 A blue-black workspace with composed contrast and layered navy surfaces.
 
-<!-- Screenshot slot: assets/screenshots/avenor-navy.png -->
+![Avenor Navy in Visual Studio Code](assets/screenshots/avenor-navy.png)
 
 ### Avenor Obsidian
 
 A refined near-black workspace with quiet graphite separation and minimal visual weight.
 
-<!-- Screenshot slot: assets/screenshots/avenor-obsidian.png -->
+![Avenor Obsidian in Visual Studio Code](assets/screenshots/avenor-obsidian.png)
 
 ### Avenor Twilight
 
 A muted violet-night workspace with atmospheric depth and softened chrome.
 
-<!-- Screenshot slot: assets/screenshots/avenor-twilight.png -->
+![Avenor Twilight in Visual Studio Code](assets/screenshots/avenor-twilight.png)
+
+### Avenor Ivory
+
+A cool-white light theme with calm chrome, dark text, and precise visual hierarchy.
+
+![Avenor Ivory in Visual Studio Code](assets/screenshots/avenor-ivory.png)
 
 ## Why Avenor?
 
