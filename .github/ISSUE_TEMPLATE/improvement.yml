@@ -1,0 +1,27 @@
+name: Improvement idea
+description: Suggest a focused improvement to Avenor's themes or documentation.
+title: "[Idea]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Improvement
+      description: Explain the change and the problem it would solve.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Name the affected theme, language, token role, or documentation section.
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: This suggestion is focused and preserves Avenor's clarity-first design direction.
+          required: true

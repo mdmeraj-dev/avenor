@@ -1,0 +1,112 @@
+{
+  "name": "avenor",
+  "displayName": "Avenor",
+  "description": "Ten refined VS Code color themes with deliberate surface hierarchy, semantic clarity, and controlled vibrancy.",
+  "version": "1.0.0",
+  "publisher": "avenor",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "avenor",
+    "vscode theme",
+    "color theme",
+    "dark theme",
+    "light theme",
+    "syntax highlighting",
+    "semantic highlighting",
+    "developer theme",
+    "cobalt",
+    "charcoal",
+    "gunmetal",
+    "indigo",
+    "ivory",
+    "jade",
+    "navy",
+    "obsidian",
+    "signature",
+    "twilight"
+  ],
+  "icon": "assets/avenor.png",
+  "galleryBanner": {
+    "color": "#1C232D",
+    "theme": "dark"
+  },
+  "qna": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdmeraj-dev/avenor.git"
+  },
+  "homepage": "https://github.com/mdmeraj-dev/avenor#readme",
+  "bugs": {
+    "url": "https://github.com/mdmeraj-dev/avenor/issues"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Avenor Cobalt",
+        "uiTheme": "vs-dark",
+        "path": "./themes/avenor-cobalt-color-theme.json"
+      },
+      {
+        "label": "Avenor Charcoal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/avenor-charcoal-color-theme.json"
+      },
+      {
+        "label": "Avenor Gunmetal",
+        "uiTheme": "vs-dark",
+        "path": "./themes/avenor-gunmetal-color-theme.json"
+      },
+      {
+        "label": "Avenor Indigo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/avenor-indigo-color-theme.json"
+      },
+      {
+        "label": "Avenor Ivory",
+        "uiTheme": "vs",
+        "path": "./themes/avenor-ivory-color-theme.json"
+      },
+      {
+        "label": "Avenor Jade",
+        "uiTheme": "vs-dark",
+        "path": "./themes/avenor-jade-color-theme.json"
+      },
+      {
+        "label": "Avenor Navy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/avenor-navy-color-theme.json"
+      },
+      {
+        "label": "Avenor Obsidian",
+        "uiTheme": "vs-dark",
+        "path": "./themes/avenor-obsidian-color-theme.json"
+      },
+      {
+        "label": "Avenor Signature",
+        "uiTheme": "vs-dark",
+        "path": "./themes/avenor-signature-color-theme.json"
+      },
+      {
+        "label": "Avenor Twilight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/avenor-twilight-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "validate": "node scripts/validate-family.mjs",
+    "test": "npm run validate",
+    "package": "npm run validate && node -e \"require('node:fs').mkdirSync('dist', { recursive: true })\" && vsce package --out dist/avenor-1.0.0.vsix",
+    "vscode:prepublish": "npm run validate"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "3.9.2"
+  }
+}
