@@ -4,7 +4,7 @@
 
 # Avenor Theme
 
-**Maximum Clarity. Minimum Noise.**
+**Refined Color. Clear Code.**
 
 Avenor is a family of ten refined Visual Studio Code color themes built around semantic clarity, deliberate surface hierarchy, controlled vibrancy, and comfortable long-session use. The collection includes nine dark themes and one light theme, with **Avenor Signature** as the flagship dark experience.
 
@@ -157,4 +157,4 @@ Avenor is available under the [MIT License](LICENSE).
 
 ---
 
-Designed around **Maximum Clarity, Minimum Noise.**
+Designed around **Refined Color. Clear Code.**
